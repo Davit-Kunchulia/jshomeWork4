@@ -12,6 +12,31 @@ array.shift()
 console.log(array);
 
 
+// 2
+let fruit = ["ფორთოხალი","ბანანი","მსხალი"]
+
+console.log(fruit);
+
+fruit.push("ვაშლი","ანანასი")
+fruit.unshift("საზამთრო")
+
+console.log(fruit);
+
+let fr = fruit.splice(0, 2)
+let fr2 = fruit.splice(0, 4)
+
+let mango = ["მანგო"]
+
+let fruitFinal = fr.concat(mango,fr2)
+
+console.log(fruitFinal);
+
+fruitFinal.shift()
+fruitFinal.pop()
+
+console.log(fruitFinal);
+
+
 // 3
 let array2 =[1, 2, 3, 4, 5]
 
