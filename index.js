@@ -88,7 +88,9 @@ console.log(retult);
 let words = ['madrid', 'rome', 'milan', 'berlin'];
 
 let resultWord = words.filter((elem) => {
-    return elem.includes('n');
+    if(elem.includes("m") || elem.includes("n")){
+        return elem
+    }
 });
 
 console.log(resultWord);
