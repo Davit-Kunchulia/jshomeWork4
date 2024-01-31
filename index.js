@@ -74,6 +74,26 @@ let div3 = div.map((element) => element / 3)
 console.log(div3);
 
 
+// 7
+let languages = ['html', 'css', 'javascript', 'python', 'php'];
+
+let retult = languages.filter((Symbol) => {
+    return Symbol.length > 3;
+});
+
+console.log(retult);
+
+
+// 8
+let words = ['madrid', 'rome', 'milan', 'berlin'];
+
+let resultWord = words.filter((elem) => {
+    return elem.includes('n');
+});
+
+console.log(resultWord);
+
+
 // 9
 let arr1 = [1, 2];
 let arr2 = [3, 4];
